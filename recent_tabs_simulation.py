@@ -32,7 +32,7 @@ class TabStack:
             return
         
         (tab, lastIndex) = self.tempStack.pop()
-        self.push(tab, lastIndex, isundo=True)
+        self.push(tab, lastIndex, isUndo=True)
     
     def __str__(self):
         return f'===== {self.tabs}'
